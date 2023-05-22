@@ -6,7 +6,8 @@
     <script src="code.js"></script>
     <!-- Navigation Region -->
     <div>
-        <header style="align-items: center">
+        <header style="text-align: center">
+            <H1>Let's play Craps!</H1>
             <nav>
                 <h2>
                     <a href="./index.html">Home</a><br>
@@ -17,15 +18,18 @@
         </header>
     </div>
 </head>
+<!-- Body Section -->
+<div>
 
-<body style="background: D3d3d3;">
-    <h1>Let's play Craps!</h1>
-    <button onclick="playCraps();">Play</button>
-    <!-- Text that will be displayed when the button is pressed -->
-    <p>Dice 1: </p>
-    Dice 2: </p>
-    Total: </p>
-    </p>
-</body>
+    <body style="background: d6d6d6;">
+        <h3>Click below to play</h3>
+        <button onclick="playCraps();">Play</button>
+        <!-- Text that will be displayed when the button is pressed -->
+        <p id="Die1">Dice 1: </p>
+        <p id="Die2">Dice 2: </p>
+        <p id="Total">Total: </p>
+        <p id="Game State"></p>
+    </body>
+</div>
 
 </html>
